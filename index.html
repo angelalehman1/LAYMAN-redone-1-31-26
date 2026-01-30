@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bookkeeping Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fb;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: teal;
+  padding: 50px 20px;
+  color: white;
+}
+
+.header-wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  position: absolute;
+  left: -160px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-logo img {
+  max-height: 275px;
+  border-radius: 50%;
+}
+
+.header-text {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 10px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #d8cfa6;
+  color: teal;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.cta-button:hover {
+  background-color: #e0a500;
+  color: white;
+}
+
+/* ===== BODY ===== */
+section {
+  background: white;
+  margin: 40px auto;
+  padding: 40px 30px;
+  border-radius: 10px;
+  max-width: 900px;
+}
+
+h2 {
+  color: teal;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  max-width: 760px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+/* ===== SERVICES (BULLET STARTS TEXT, CENTERED) ===== */
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+section ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+section ul li::before {
+  content: "•";
+  color: teal;
+  font-size: 22px;
+  margin-right: 8px;
+  line-height: 1;
+}
+
+/* ===== CONTACT FORM ===== */
+.contact-form-wrapper {
+  text-align: center;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  grid-column: span 2;
+  height: 300px;
+}
+
+.contact-form button {
+  grid-column: span 2;
+  padding: 14px;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* ===== CONTACT FORM LABELS AND INPUTS FULL WIDTH STACK ===== */
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left; /* align labels left for clarity */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+/* Override grid layout to stack labels and inputs vertically */
+.contact-form {
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+/* ===== TESTIMONIALS ===== */
+.testimonial-card {
+  text-align: center;
+  margin: 0 auto 30px;
+  max-width: 600px;
+}
+
+.testimonial-card .stars {
+  color: #FFD700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== PROFILE IMAGE ===== */
+.profile-image-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img[src="https://i.postimg.cc/PrGWkSCw/profile.jpg"] {
+  border-radius: 50%;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 800px) {
+  .header-logo {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-wrapper">
+    <div class="header-logo">
+      <img src="https://i.postimg.cc/SN7zyMH2/LOGOFINAL.jpg" alt="Company Logo">
+    </div>
+    <div class="header-text">
+      <h1>Layman's Terms Bookkeeping Services</h1>
+      <p>Trusted bookkeeping, so you can stay focused on doing what you do best—<br>running your business.</p>
+      <a href="#contact" class="cta-button">Request a Free Consultation</a>
+    </div>
+  </div>
+</header>
+
+<section>
+<h2>Supporting Your Business</h2>
+<p>
+Running a small business is hard enough without worrying about bookkeeping. At Layman’s Terms Bookkeeping Services,
+I take the bookkeeping off your plate and translate your financials into plain, straightforward language.
+</p>
+<p>
+Whether you’re starting a new business, need to get your books back on track, or want more personalized support,
+I help bring clarity to your numbers and provide insight that supports informed decisions and long-term growth.
+Avoid the stress of costly errors by keeping your documents well-prepared and accurate so your tax preparer has
+everything needed for year-end filings.
+</p>
+</section>
+
+<section>
+<h2>Save Time & Money</h2>
+<p>I free up your time and mental space, allowing you to focus on what you do best—running your business.</p>
+<p>Professional bookkeeping services at a fraction of the cost of full-time staff, helping you reduce payroll expenses and overhead while still receiving attentive, hands-on service.</p>
+</section>
+
+<section>
+<h2>Behind the Business</h2>
+<div class="profile-image-wrapper">
+  <img src="https://i.postimg.cc/PrGWkSCw/profile.jpg" alt="My Photo" width="200">
+</div>
+<p>At Layman's Terms Bookkeeping Services, I bring over 20 years of experience as an Accounting & Administration Manager and Financial Controller, working across a wide range of industries and business environments. My background includes working with construction-related companies, contractors, medical providers, non-profits, and service-based businesses, with experience spanning multiple U.S. states as well as international operations.</p>
+<p>Throughout my career, I have worked closely with small business owners and CEOs, providing reliable financial insight and hands-on support. I specialize in producing clear financial reports, cash flow analysis, and customized reporting tailored to each business’s unique needs—so decision-making is based on accurate, understandable information.</p>
+<p>Whether expanding or streamlining, I guide businesses in reshaping accounting and administrative roles and designing efficient processes that drive alignment with their size, goals, and operational priorities. In addition to bookkeeping and accounting management, I bring years of experience in human resources and administrative management, allowing me to support businesses beyond the numbers.</p>
+<p>My goal is to simplify financial processes, create clarity, and give business owners the confidence and time to focus on running and growing their business.</p>
+</section>
+
+<section>
+<h2>Services Made for Your Business</h2>
+<ul>
+  <li>Monthly Bookkeeping</li>
+  <li>Accounts Payable & Receivable</li>
+  <li>Bank and Credit card Reconciliations</li>
+  <li>Sales Tax filing and reporting</li>
+  <li>Business & Occupation (B&O) Tax Filing</li>
+  <li>Payroll Management; set-up, processing, taxes, compliance</li>
+  <li>QuickBooks; setup, training and support</li>
+  <li>Financial Reporting; P&amp;L, Balance Sheet, Cashflow, Financial Analysis</li>
+  <li>Catch-up & Cleanup Bookkeeping</li>
+  <li>Year-end Tax Preparation - Liaison with CPA</li>
+  <li>Customized Reporting; Project Analysis and Job Costing</li>
+  <li>Accounting & Administration: analyze, organize, and restructure</li>
+  <li>Human Resource Services</li>
+</ul>
+</section>
+
+<section>
+<h2>What Clients Are Saying</h2>
+<p style="font-size:12px;"><i>*References That Can Be Verified</i></p>
+
+<div class="testimonial-card">
+  <p>"As a new business owner, Angela set up our accounting and payroll with clear, easy-to-understand guidance. She thinks ahead, keeps me informed, and manages everything accurately and efficiently—so I can focus on running my business. I truly appreciate all she does and highly recommend her!"</p>
+  <div class="client-name">Kate</div>
+  <div class="client-role">Healthcare Provider</div>
+  <div class="stars">★★★★★</div>
+</div>
+
+<div class="testimonial-card">
+  <p>"I have known Angela Oriti-Niosi for over 23 years, including over 12 years as our Financial Controller. She combines deep financial expertise with integrity, professionalism, and strategic foresight. Angela consistently delivers accurate, compliant results, thinks ahead, and leads with confidence while mentoring our team. I highly recommend her—any organization would be lucky to work with her."</p>
+  <div class="client-name">Bill</div>
+  <div class="client-role">Technology Installations Company</div>
+  <div class="stars">★★★★★</div>
+</div>
+
+<div class="testimonial-card">
+  <p>"Angela managed accounting, administration, and HR for both my companies, implemented new accounting software, trained staff, and liaised with accountants, auditors, and lawyers. She optimized our bookkeeping, corrected errors that recovered lost revenue, and consistently generated value exceeding the cost of her services. Highly organized, diligent, and reliable, with excellent finance and budgeting skills—I highly recommend her."</p>
+  <div class="client-name">Louise</div>
+  <div class="client-role">Engineering Services Company</div>
+  <div class="stars">★★★★★</div>
+</div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Please tell me how I can help you. I will respond promptly.</p>
+
+  <div class="contact-form-wrapper">
+    <form class="contact-form" action="https://formspree.io/f/xeeadkrq" method="POST">
+      <label for="name">Name / Company:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name / Company Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p id="success-msg" style="display:none;">Thanks! Your message has been sent.</p>
+  </div>
+
+<script>
+const form = document.querySelector('.contact-form');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
+  const response = await fetch(form.action, {
+    method: form.method,
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+  if (response.ok) {
+    form.reset();
+    document.getElementById('success-msg').style.display = 'block';
+  } else {
+    alert("Oops! There was a problem submitting your form.");
+  }
+});
+</script>
+</section>
+
+<footer style="background-color:#f8f9fb; padding:20px; text-align:center; color:#333; font-size:14px;">
+  <p><strong>Email:</strong> 
+    <a href="mailto:info@ltbookkeeping.com" style="color:teal; text-decoration:none; font-weight:bold;">info@ltbookkeeping.com</a>
+  </p>
+  <p><strong>Phone:</strong> 
+    <a href="tel:13104274828" style="color:teal; text-decoration:none; font-weight:bold;">(310) 427-4828</a>
+  </p>
+  <p>© 2026 Layman's Terms Bookkeeping Services · All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

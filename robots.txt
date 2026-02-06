@@ -1,4 +1,10 @@
+# Allow all search engines to crawl the entire site
 User-agent: *
 Allow: /
 
+# Sitemap location (custom domain)
 Sitemap: https://laymanstermsbookkeepingservices.com/sitemap.xml
+
+# Optional: block unnecessary paths (uncomment if you add these in future)
+# Disallow: /admin/
+# Disallow: /private/
